@@ -1,7 +1,7 @@
 # -- mode: ruby --
 # vi: set ft=ruby :
 require 'yaml'
-yaml = YAML.load_file("machines.yml")
+yaml = YAML.load_file("core/machines.yml")
 
 K8S_VERSION="1.11.7-00" 
 DOCKER_VERSION="17.12.1~ce-0~ubuntu"
