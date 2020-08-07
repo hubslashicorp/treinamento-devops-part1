@@ -3,4 +3,4 @@
   memory: 3096
   hostname: devops-lab
   ip: 192.168.66.10
-  sistema: ubuntu/xenial64
+  sistema: ubuntu/bionic64
