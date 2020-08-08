@@ -28,6 +28,8 @@ config.vm.provision "shell", inline: <<-SHELL
 
 if [ $HOSTNAME = "devops-lab" ]; then
   sudo apt update -y && sudo apt upgrade -y
+  curl -fsSL https://get.docker.com -o get-docker.sh
+  sudo sh get-docker.sh
 fi;
 
 SHELL
