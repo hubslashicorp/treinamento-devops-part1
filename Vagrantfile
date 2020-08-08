@@ -3,13 +3,6 @@
 require 'yaml'
 yaml = YAML.load_file("core/machines.yml")
 
-K8S_VERSION="1.11.7-00" 
-DOCKER_VERSION="17.12.1~ce-0~ubuntu"
-MYSQL_PASSWORD='devops@slashicorp'
-MYSQL_IP='192.168.66.30'
-K8S_IP='192.168.66.20'
-MYSQLPASS="sonar@123"
-
 Vagrant.configure("2") do |config|
   yaml.each do |server|
     config.vm.define server["name"] do |srv|
