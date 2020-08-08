@@ -68,7 +68,7 @@ Docker Hub: https://hub.docker.com/
 
 Em alguns casos o download da `box` Vagrant demora uma eternidade para baixar sendo assim,
 caso queira provisionar o ambiente com antecedencia, apos instalar o Git, Virtualbox e o Vagrant, navegue ate o 
-repositorio clonado localmente em sua maquina:
+repositorio clonado localmente em sua maquina e execute os passos:
 
 1.0 - Realize o clone do repositorio:
 ```
