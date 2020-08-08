@@ -24,7 +24,10 @@ if [ $HOSTNAME = "devops-lab" ]; then
   curl -fsSL https://get.docker.com -o get-docker.sh
   sudo sh get-docker.sh
 fi;
-
+  date +"%H:%M:%S"
+  sleep 5
+  date +"%H:%M:%S"
+  usermod -a -G docker vagrant
 SHELL
 
 end
